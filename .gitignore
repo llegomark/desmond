@@ -12,8 +12,6 @@ dist
 dist-ssr
 *.local
 .claude/*
-CLAUDE.md
-GEMINI.md
 
 # Editor directories and files
 .vscode/*
