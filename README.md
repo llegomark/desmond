@@ -2,16 +2,20 @@
 
 > A special AI chat application built with love for a curious 6-year-old who loves learning and asking questions.
 
-<img width="1920" height="1080" alt="1" src="https://github.com/user-attachments/assets/fd1de4cf-e9fc-4e5e-b081-86184a59a8dd" />
-<img width="1920" height="1080" alt="2" src="https://github.com/user-attachments/assets/08ca99fa-b265-4676-976c-309ea5447e8b" />
-<img width="1920" height="1080" alt="3" src="https://github.com/user-attachments/assets/8692b23c-9e19-4d90-8ae7-e5f77b558b59" />
-<img width="1920" height="1080" alt="4" src="https://github.com/user-attachments/assets/1f9804e4-e6a7-461b-a331-6ab70a8ed58e" />
-<img width="1920" height="1080" alt="5" src="https://github.com/user-attachments/assets/a9a25113-be8c-4c7f-8020-463ca544d741" />
-<img width="1920" height="1080" alt="6" src="https://github.com/user-attachments/assets/fb956cea-b3bf-474d-a5f7-a93026a28191" />
-<img width="1920" height="1080" alt="7" src="https://github.com/user-attachments/assets/632bf912-51f6-49e5-81b5-2d9b40a6b9dd" />
-<img width="1920" height="1080" alt="8" src="https://github.com/user-attachments/assets/2140c811-77ee-444a-9556-f231c906beb9" />
-<img width="1920" height="1080" alt="9" src="https://github.com/user-attachments/assets/d681c627-2701-4fc8-9c22-4b60c2fa1479" />
-<img width="1920" height="1080" alt="10" src="https://github.com/user-attachments/assets/55f603dc-8fbe-4c77-97f9-3563e4a99e65" />
+<img width="1920" height="1080" alt="Mark Anthony Llego" src="https://github.com/user-attachments/assets/fd1de4cf-e9fc-4e5e-b081-86184a59a8dd" />
+<img width="1920" height="1080" alt="Mark Anthony Llego" src="https://github.com/user-attachments/assets/08ca99fa-b265-4676-976c-309ea5447e8b" />
+<img width="1920" height="1080" alt="Mark Anthony Llego" src="https://github.com/user-attachments/assets/8692b23c-9e19-4d90-8ae7-e5f77b558b59" />
+<img width="1920" height="1080" alt="Mark Anthony Llego" src="https://github.com/user-attachments/assets/1f9804e4-e6a7-461b-a331-6ab70a8ed58e" />
+<img width="1920" height="1080" alt="Mark Anthony Llego" src="https://github.com/user-attachments/assets/a9a25113-be8c-4c7f-8020-463ca544d741" />
+<img width="1920" height="1080" alt="Mark Anthony Llego" src="https://github.com/user-attachments/assets/fb956cea-b3bf-474d-a5f7-a93026a28191" />
+<img width="1920" height="1080" alt="Mark Anthony Llego" src="https://github.com/user-attachments/assets/632bf912-51f6-49e5-81b5-2d9b40a6b9dd" />
+<img width="1920" height="1080" alt="Mark Anthony Llego" src="https://github.com/user-attachments/assets/2140c811-77ee-444a-9556-f231c906beb9" />
+<img width="1920" height="1080" alt="Mark Anthony Llego" src="https://github.com/user-attachments/assets/d681c627-2701-4fc8-9c22-4b60c2fa1479" />
+<img width="1920" height="1080" alt="Mark Anthony Llego" src="https://github.com/user-attachments/assets/55f603dc-8fbe-4c77-97f9-3563e4a99e65" />
+<img width="1920" height="1080" alt="Mark Anthony Llego" src="https://github.com/user-attachments/assets/3a302cc3-f4b9-42d2-8204-c4e42536d936" />
+<img width="1920" height="1080" alt="Mark Anthony Llego" src="https://github.com/user-attachments/assets/2c5e9dc8-5c95-411b-b432-528a98edcc50" />
+
+
 
 ## The Story Behind Desmond
 
