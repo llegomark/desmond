@@ -144,7 +144,7 @@ const ChatInput: React.FC<ChatInputProps> = ({ onSendMessage, isLoading, styles,
         </div>
       )}
       {isImageModel && onAspectRatioChange && (
-        <div className="mb-3 p-3 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg border border-blue-200">
+        <div className="mb-3 p-3 bg-linear-to-r from-blue-50 to-indigo-50 rounded-lg border border-blue-200">
           <div className="flex items-center justify-between mb-2">
             <div className="flex items-center gap-2">
               <svg className="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -186,7 +186,7 @@ const ChatInput: React.FC<ChatInputProps> = ({ onSendMessage, isLoading, styles,
             ))}
           </div>
           <div className="mt-3 flex items-start gap-2 p-2.5 bg-amber-50 border border-amber-200 rounded-lg">
-            <svg className="w-5 h-5 text-amber-600 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg className="w-5 h-5 text-amber-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
             <p className="text-xs text-amber-800 leading-relaxed">
@@ -201,7 +201,7 @@ const ChatInput: React.FC<ChatInputProps> = ({ onSendMessage, isLoading, styles,
             {files.map((file, index) => (
               <div key={index} className="flex justify-between items-center bg-white p-1 rounded">
                 <span className="text-slate-700 truncate pr-2">{file.name}</span>
-                <button onClick={() => removeFile(index)} className="flex-shrink-0 text-slate-500 hover:text-slate-800 font-bold focus:outline-none focus:ring-2 focus:ring-slate-400 rounded-full w-5 h-5 flex items-center justify-center">&times;</button>
+                <button onClick={() => removeFile(index)} className="shrink-0 text-slate-500 hover:text-slate-800 font-bold focus:outline-none focus:ring-2 focus:ring-slate-400 rounded-full w-5 h-5 flex items-center justify-center">&times;</button>
               </div>
             ))}
           </div>

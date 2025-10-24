@@ -431,7 +431,7 @@ const ChatMessage: React.FC<ChatMessageProps> = ({ message, styles, onSuggestion
   return (
     <div className={`flex items-start gap-2 sm:gap-3 ${isUser ? 'justify-end' : 'justify-start'}`}>
       {!isUser && !isMobile && (
-        <div className={`${styles.avatarContainer} flex-shrink-0`}>
+        <div className={`${styles.avatarContainer} shrink-0`}>
           <Icon name="ai" className={styles.avatarIcon} />
         </div>
       )}
@@ -529,7 +529,7 @@ const ChatMessage: React.FC<ChatMessageProps> = ({ message, styles, onSuggestion
             </div>
           )}
           {isUser ? (
-            <p className="whitespace-pre-wrap break-words overflow-wrap-anywhere">{message.text}</p>
+            <p className="whitespace-pre-wrap wrap-break-word overflow-wrap-anywhere">{message.text}</p>
           ) : (
             <>
               {message.executableCode && (
@@ -615,7 +615,7 @@ const ChatMessage: React.FC<ChatMessageProps> = ({ message, styles, onSuggestion
                   </div>
                 </div>
               )}
-              <div className="prose prose-sm max-w-none break-words">
+              <div className="prose prose-sm max-w-none wrap-break-word">
                 {message.text ? (
                   <>
                     <MessageContent text={showFullMessage && message.fullText ? message.fullText : message.text} components={markdownComponents} />
@@ -658,7 +658,7 @@ const ChatMessage: React.FC<ChatMessageProps> = ({ message, styles, onSuggestion
                 </svg>
                 Sources
               </h4>
-              <ul className="list-none space-y-2 !pl-0">
+              <ul className="list-none space-y-2 pl-0!">
                 {message.sources.map((source, index) => {
                   const isGoogleMaps = source.placeId !== undefined;
                   return (
@@ -668,12 +668,12 @@ const ChatMessage: React.FC<ChatMessageProps> = ({ message, styles, onSuggestion
                         target="_blank"
                         rel="noopener noreferrer"
                         className={`flex items-start gap-2 p-2.5 rounded-lg border transition-all hover:shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500 ${isGoogleMaps
-                          ? 'bg-gradient-to-r from-blue-50 to-green-50 border-blue-200 hover:border-blue-300'
+                          ? 'bg-linear-to-r from-blue-50 to-green-50 border-blue-200 hover:border-blue-300'
                           : 'bg-slate-50 border-slate-200 hover:border-slate-300'
                           }`}
                         title={source.title}
                       >
-                        <div className="flex-shrink-0 mt-0.5">
+                        <div className="shrink-0 mt-0.5">
                           {isGoogleMaps ? (
                             <img
                               src="https://www.google.com/images/branding/product/ico/maps15_bnuw3a_32dp.ico"
@@ -704,7 +704,7 @@ const ChatMessage: React.FC<ChatMessageProps> = ({ message, styles, onSuggestion
                             )}
                           </div>
                         </div>
-                        <div className="flex-shrink-0">
+                        <div className="shrink-0">
                           <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-slate-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                           </svg>
@@ -745,7 +745,7 @@ const ChatMessage: React.FC<ChatMessageProps> = ({ message, styles, onSuggestion
                   <button
                     key={index}
                     onClick={() => onSuggestionClick(suggestion)}
-                    className="bg-white text-slate-700 text-left text-sm py-2 px-3 rounded-lg border border-slate-300 hover:bg-slate-100 hover:border-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-400 break-words whitespace-pre-wrap overflow-wrap-anywhere max-w-full"
+                    className="bg-white text-slate-700 text-left text-sm py-2 px-3 rounded-lg border border-slate-300 hover:bg-slate-100 hover:border-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-400 wrap-break-word whitespace-pre-wrap overflow-wrap-anywhere max-w-full"
                   >
                     {suggestion}
                   </button>
@@ -761,7 +761,7 @@ const ChatMessage: React.FC<ChatMessageProps> = ({ message, styles, onSuggestion
         )}
       </div>
       {isUser && !isMobile && (
-        <div className={`${styles.avatarContainer} flex-shrink-0`}>
+        <div className={`${styles.avatarContainer} shrink-0`}>
           <Icon name="user" className={styles.avatarIcon} />
         </div>
       )}
